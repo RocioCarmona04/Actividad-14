@@ -1,0 +1,103 @@
+#titulo {
+    color: pink;
+    margin: 0px 0px 15px 0px;
+    text-shadow:
+    rgba(0, 0, 0, 0.1) -1px 0,
+    rgba(0, 0, 0, 0.1) 0 -1px,
+    rgba(255, 255, 255, 0.1) 1px 0,
+    rgba(255, 255, 255, 0.1) 0 1px,
+    rgba(0, 0, 0, 0.1) -1px -1px,
+    rgba(255, 255, 255, 0.1) 1px 1px;
+  color: rgb(43, 194, 214);
+  background: rgb(128, 117, 173);
+}
+body {
+    background-color: #F49FD9;
+
+}
+header {
+    background-color: #2B968F;
+    color: #932323;
+    text-align: center;
+    padding: 20px 20px 15px 15px;
+
+}
+#MenuPrinipal {
+    background-color: #A492FF;
+    
+}
+a:hover {
+    color: black;
+    background: pink;
+
+}
+
+@media (hover: hover) {
+    /* when hover is sopported */
+    a:hover {
+        color: white;
+        background: black;
+    }
+    }
+
+#MenuPrincioal {
+    list-style: none;
+    padding: 0px 0px 0px 0px;
+}
+a:hover {
+    color: black;
+    background: pink;
+
+}
+
+@media (hover: hover) {
+    /* when hover is sopported */
+    a:hover {
+        color: white;
+        background: black;
+    }
+    }
+#MenuPrincipal {
+    display:inline;
+    margin: 15px 15px 0px 0px;
+}
+a:hover {
+    color: black;
+    background: pink;
+
+}
+
+@media (hover: hover) {
+    /* when hover is sopported */
+    a:hover {
+        color: white;
+        background: black;
+    }
+    }
+a {
+    text-decoration: none;
+    color: #E4C8A7;
+    padding: 20px 20px 10px 10px;
+}
+#tituloSection {
+    background-color: #9AB552;
+    color: #FE6D29;
+    padding: 10px 10px 10px 10px;
+    font-family: "cursive";
+    border-style: solid;
+}
+article {
+    border: 1px solid #CCCCCC;
+    background-color: #FFFFFF;
+    margin: 0px 0px 10px 0px;
+    padding: 10px 10px 10px 10px;
+    border-style: double;
+}
+footer {
+    background-color:#FE6D29;
+    color:aqua;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 20px 0px;
+    font-family: "Gill Sans", sans-serif;
+}
